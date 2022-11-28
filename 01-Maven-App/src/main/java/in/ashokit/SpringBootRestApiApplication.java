@@ -15,6 +15,7 @@ public class SpringBootRestApiApplication {
 
 	@GetMapping("/")
 	public String welcomeMsg() {
+		int i=10;
 		return "Welcome To Ashok IT..!! krishnappa";
 	}
 
